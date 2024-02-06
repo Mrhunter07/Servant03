@@ -31,6 +31,10 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
+#SHORTLINK
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "easysky.in")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "a1a45bfd3be9e758537846a3617b24c5d8be7d34")
+
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
