@@ -7,33 +7,21 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-
-
-#Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-
-#Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
-
-#Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
-
-#Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
-
-#OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-
-#Port
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6094762122:AAFIPVQa4wM4-A_-wQD9RTU8OMkpnzUxaNs")
+APP_ID = int(os.environ.get("APP_ID", "1736204"))
+API_HASH = os.environ.get("API_HASH", "890d40e0f91a4de32dec2965444b2cbe")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001205507869"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
 PORT = os.environ.get("PORT", "8080")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://cinestore:cinestore@cinestore.gxqbify.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "FileStore")
 
-#Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+
+
 
 #SHORTLINK
 SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "easysky.in")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "a1a45bfd3be9e758537846a3617b24c5d8be7d34")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "12d1df0a0f8e8cd03eb7d99bb79c51fcab5dac84")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
