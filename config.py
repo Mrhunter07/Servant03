@@ -10,13 +10,13 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6169258966:AAFEDu0LSHzWVcDH6ejzrsPyTPM_Db9YrVE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6169258966:AASHzWrsPyTPM_Db9YrVE")
 APP_ID = int(os.environ.get("APP_ID", "1736204"))
 API_HASH = os.environ.get("API_HASH", "890d40e0f91a4de32dec2965444b2cbe")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001690361891"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
 PORT = os.environ.get("PORT", "8080")
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileStore:FileStore@cluster0.pjvrq1y.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileStoreuster0.pjvrq1y.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "FileStore")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
