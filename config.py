@@ -13,7 +13,7 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6551603754:AAHx2ZtBfnx24X4tlXoxr7-02k0BreOns9g")
 APP_ID = int(os.environ.get("APP_ID", "24314601"))
 API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002211202169"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002171020418"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "640617767"))
 PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://13duddududdu:13duddududdu@cluster0.dvpxim9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
