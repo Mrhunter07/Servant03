@@ -10,27 +10,27 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6169258966:AASHzWrsPyTPM_Db9YrVE")
-APP_ID = int(os.environ.get("APP_ID", "1736204"))
-API_HASH = os.environ.get("API_HASH", "890d40e0f91a4de32dec2965444b2cbe")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001690361891"))
-OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6551603754:AAHx2ZtBfnx24X4tlXoxr7-02k0BreOns9g")
+APP_ID = int(os.environ.get("APP_ID", "24314601"))
+API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002211202169"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "640617767"))
 PORT = os.environ.get("PORT", "8080")
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileStoreuster0.pjvrq1y.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "FileStore")
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://13duddududdu:<13duddududdu>@cluster0.dvpxim9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "files")
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001907363638"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #SHORTLINK
 SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "easysky.in")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "8538016024111a0090a5474be6c9f8b2464cbe2e")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "a3f19acc6e58669565e8a3eb4cd5f7b040db4989")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001907363638"))
 
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "🔆 彡 [ HEROFLiX ] 彡 🔆")
+START_MSG = os.environ.get("START_MESSAGE", "🔆 彡 [ BOSS ] 彡 🔆")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "5051689666 1058015838").split()):
@@ -54,7 +54,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1058015838)
+ADMINS.append(640617767)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
