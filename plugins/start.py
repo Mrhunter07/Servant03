@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔆彡[ @HEROFLiX ]彡🔆", url='https://t.me/allbackupchanel')
+                    InlineKeyboardButton("🔆彡[ @Cineplex ]彡🔆", url='https://t.me/allbackupchanel')
                 ]
             ]
         )
