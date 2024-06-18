@@ -30,7 +30,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001907363638"))
 
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "🔆 first join my channel 🔆")
+START_MSG = os.environ.get("START_MESSAGE", "🔆 First join My All Channel 🔆")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "640617767").split()):
