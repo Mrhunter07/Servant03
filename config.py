@@ -30,10 +30,10 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001907363638"))
 
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "🔆 彡 [ BOSS ] 彡 🔆")
+START_MSG = os.environ.get("START_MESSAGE", "🔆 first join my channel 🔆")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5051689666 1058015838").split()):
+    for x in (os.environ.get("ADMINS", "640617767").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
