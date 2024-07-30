@@ -22,8 +22,8 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #SHORTLINK
-SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "easysky.in")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "a3f19acc6e58669565e8a3eb4cd5f7b040db4989")
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "3a269171611fa7e5146fdf07b500d4137293bd7a")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001907363638"))
